@@ -1,5 +1,5 @@
 const player1 = require(process.argv[2] || './decision.js');
-const player2 = require(process.argv[3] || './decision.cheater.js');
+const player2 = require(process.argv[3] || './decision.failtest.js');
 
 const scoreFromHistory = history => history.reduce(addRoundResultToScores, { p1: 0, p2: 0 });
 
